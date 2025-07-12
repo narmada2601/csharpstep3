@@ -1,0 +1,6 @@
+﻿The REF and OUT keywords in C# 
+
+These are used for passing the arguments to a method as a reference type.
+By default, arguments are passed to a method .
+In this case, any changes made to these arguments in the method
+body will be reflected in those variable when the control returns to the calling method.

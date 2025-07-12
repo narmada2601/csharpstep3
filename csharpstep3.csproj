@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>usingTryParse</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -43,11 +46,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="methods and returntypes\Books.cs" />
+    <Compile Include="methods and returntypes\methodsrevision.cs" />
+    <Compile Include="ref and out\sirExample.cs" />
+    <Compile Include="ref and out\UsingBoth.cs" />
+    <Compile Include="ref and out\UsingBoth1.cs" />
+    <Compile Include="ref and out\UsingOut.cs" />
+    <Compile Include="ref and out\UsingRef.cs" />
+    <Compile Include="ref and out\usingTryParse.cs" />
+    <Compile Include="ref and out\LoginSystem.cs" />
+    <Compile Include="ref and out\withoutRefandOut.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="notes3.txt" />
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
