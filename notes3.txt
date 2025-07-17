@@ -4,3 +4,13 @@ These are used for passing the arguments to a method as a reference type.
 By default, arguments are passed to a method .
 In this case, any changes made to these arguments in the method
 body will be reflected in those variable when the control returns to the calling method.
+
+
+
+//extension methods
+Extension methods enable you to "add" methods to existing types without creating a new derived type, recompiling, or otherwise modifying the original type. 
+n C#, the extension method concept allows you to add new methods in the existing class or in the structure without modifying the source code of the original type .
+//difernce
+The only difference between a regular static method and an extension method is that the 
+first parameter of the extension method specifies the type that it is going 
+to operator on, preceded by the this keyword.

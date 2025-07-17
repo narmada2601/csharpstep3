@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>csharpstep3.Asyncronous_Calls.cookingusingAsync</StartupObject>
+    <StartupObject>Example1</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,8 +46,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Asyncronous Calls\AsyncWorkItems.cs" />
     <Compile Include="Asyncronous Calls\cookingusingAsync.cs" />
+    <Compile Include="Asyncronous Calls\TaskDelay.cs" />
     <Compile Include="Asyncronous Calls\understandaync.cs" />
+    <Compile Include="Exception handling\Example1.cs" />
+    <Compile Include="Exception handling\ThrowException.cs" />
+    <Compile Include="Exception handling\UsingException.cs" />
+    <Compile Include="Extension Methods\CalculateAge.cs" />
+    <Compile Include="Extension Methods\CalculatorExtensions.cs" />
+    <Compile Include="Extension Methods\EvenorOdd.cs" />
+    <Compile Include="Extension Methods\ReverseString.cs" />
+    <Compile Include="Extension Methods\simpleExample.cs" />
+    <Compile Include="Extension Methods\Smartphone.cs" />
+    <Compile Include="Extension Methods\UsingGadgets.cs" />
     <Compile Include="methods and returntypes\Books.cs" />
     <Compile Include="methods and returntypes\methodsrevision.cs" />
     <Compile Include="ref and out\sirExample.cs" />
@@ -62,6 +74,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="syncronous calls\cookingusingsync.cs" />
     <Compile Include="syncronous calls\understandsync.cs" />
+    <Compile Include="syncronous calls\UsingSync.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
