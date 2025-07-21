@@ -20,7 +20,9 @@ namespace csharpstep3.Extension_Methods
         }
         public static string GetStatus(this Gadget gadget,string Brand)
         {
+            //Console.WriteLine(gadget1.BatteryLevel);
             return $"{gadget.Name} has {gadget.BatteryLevel}% battery.";
+
         }
 
     }
@@ -33,6 +35,8 @@ namespace csharpstep3.Extension_Methods
                 Name = "SmartWatch",
                 BatteryLevel = 10
             };
+            
+           
             Console.WriteLine("gadget charging info"+gadget.needsCharging());
             Console.WriteLine ("gadget status "+gadget.GetStatus("Apple"));
         }

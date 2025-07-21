@@ -9,7 +9,7 @@ class Example1
         int a = 10;
         int b = 0;
         int c=a/b;
-        Console.WriteLine(c);
+        Console.WriteLine(c);//runtime
     }
     }
 

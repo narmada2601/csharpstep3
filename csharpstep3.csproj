@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Example1</StartupObject>
+    <StartupObject>Restaraunt.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Asyncronous Calls\AsyncWorkItems.cs" />
     <Compile Include="Asyncronous Calls\cookingusingAsync.cs" />
+    <Compile Include="Asyncronous Calls\RestarauntAsyn.cs" />
     <Compile Include="Asyncronous Calls\TaskDelay.cs" />
     <Compile Include="Asyncronous Calls\understandaync.cs" />
     <Compile Include="Exception handling\Example1.cs" />
